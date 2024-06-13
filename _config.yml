@@ -1,8 +1,27 @@
-title: "അനുരാജിന്റെ ബ്ലോഗ്"
-description: "അനുരാജിന്റെ മലയാളം ബ്ലോഗ്"
-baseurl: ""
-url: "https://ml.anuraj.dev"
+title: അനുരാജിന്റെ ബ്ലോഗ്
+description: അനുരാജിന്റെ മലയാളം ബ്ലോഗ്
+baseurl: ''
+url: 'https://ml.anuraj.dev'
 remote_theme: inelaah/rain
-
+author:
+  name: Anuraj
+  email: me@anuraj.dev
+  url: 'https://anuraj.dev'
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
 plugins:
   - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-paginate
+permalink: '/:title'
+paginate: 5
+related_posts_section:
+  max_count: 5
+  min_common_tags: 2
+social:
+  email: me@anuraj.dev
+  github: 'https://github.com/anuraj'
+  twitter: 'https://twitter.com/anuraj'
+  linkedin: 'https://www.linkedin.com/in/anurajp/'
