@@ -15,7 +15,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-paginate
-permalink: '/:title'
+permalink: '/:year-:month-:day/'
 paginate: 5
 related_posts_section:
   max_count: 5
