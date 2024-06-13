@@ -1,0 +1,8 @@
+title: "അനുരാജിന്റെ ബ്ലോഗ്"
+description: "അനുരാജിന്റെ മലയാളം ബ്ലോഗ്"
+baseurl: ""
+url: "https://ml.anuraj.dev"
+remote_theme: inelaah/rain
+
+plugins:
+  - jekyll-remote-theme
